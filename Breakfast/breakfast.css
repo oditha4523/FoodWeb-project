@@ -799,6 +799,7 @@ margin-top: 10%;
 }
 
 
+/* scroll animation zoom in */
 @keyframes appear{
   from{
     opacity: 0;
@@ -816,37 +817,17 @@ margin-top: 10%;
   animation-range: entry 0% cover 40%;
 }
 
-.wrapper{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-
-.about{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.header{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.row1-container{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
 
 
 
+/* background image */
 .leafs{
-  position: absolute; /* Places the image at an absolute position */
-    top: 115%;             /* Positions the image at the top */
-    left: 50%;          /* Centers the image horizontally */
-    transform: translateX(-50%); /* Ensures proper centering */
-    z-index: 9999;      /* High z-index to place it on top of all other elements */
-    width: 400px;       /* Adjust the size of the image */
+  position: absolute; 
+    top: 115%;             
+    left: 50%;          
+    transform: translateX(-50%);
+    z-index: 9999;      
+    width: 400px;       
     height: 100px;     
 }
 

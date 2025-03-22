@@ -893,6 +893,9 @@ h2 {
 
   }
 }
+
+/* fade out animation */
+
 .top-list{
   animation: appear linear;
   animation-timeline: view();
